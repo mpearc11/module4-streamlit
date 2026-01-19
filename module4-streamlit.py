@@ -30,14 +30,14 @@ if st.button('annotate sequence'):
     npseq = str(record.seq)
     st.write(npseq)
 
-# get pandas df of annotations
-hits = annotate(npseq, is_detailed = True, linear= True)
-
-# get biopython SeqRecord object; this is already done earlier i think
-#seq_record = get_seq_record(hits, npseq)
-
-# show plot
-show(get_bokeh(hits, linear=True))
+    # get pandas df of annotations
+    hits = annotate(npseq, is_detailed = True, linear= True)
+    
+    # get biopython SeqRecord object; this is already done earlier i think
+    #seq_record = get_seq_record(hits, npseq)
+    
+    # show plot
+    show(get_bokeh(hits, linear=True))
 
 @st.fragment()
 def alignseqs():
