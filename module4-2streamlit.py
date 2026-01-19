@@ -28,6 +28,7 @@ if st.button('annotate sequence'):
     stringio = StringIO(uploaded_file.getvalue().decode('utf-8'))
     record = SeqIO.read(stringio, 'fasta')
     npseq = str(record.seq)
+    st.write(npseq)
 
 # get pandas df of annotations
 hits = annotate(npseq, is_detailed = True, linear= True)
