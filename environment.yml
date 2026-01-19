@@ -4,8 +4,9 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
-  - biopython>=1.78
+  - plannotate
+  #- biopython>=1.78
   #- pyyaml
-  - python>=3.9
-  - bokeh=2.4.1
-  - numpy=1.23.5
+  #- python>=3.9
+  #- bokeh=2.4.1
+  #- numpy=1.23.5
