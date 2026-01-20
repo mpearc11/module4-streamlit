@@ -5,4 +5,5 @@ channels:
 dependencies:
   - plannotate
   - selenium
+  - biopython
 prefix: /home/zippy/anaconda3/envs/plannotate
