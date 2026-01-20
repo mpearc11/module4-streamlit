@@ -1,3 +1,4 @@
+from Bio.Seq import Seq
 from plannotate.annotate import annotate
 from plannotate.bokeh_plot import get_bokeh
 from plannotate.resources import get_seq_record
