@@ -4,7 +4,7 @@ channels:
   - defaults
 dependencies:
   - python
-  - biopython
+  - biopython>=1.78
   - plannotate
   - selenium
   - pip
