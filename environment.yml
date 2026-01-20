@@ -30,10 +30,9 @@ dependencies:
   - biopython>=1.78
   - plannotate
   - selenium
-  - pip
-  - pip:
-    - biopython
-    - streamlit
+  # - pip
+  # - pip:
+  #   - biopython
 prefix: /home/zippy/anaconda3/envs/plannotate
 
 #ctrl+/ to comment out in bulk
