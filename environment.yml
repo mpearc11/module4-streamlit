@@ -1,6 +1,7 @@
 name: plannotate
 channels:
   - conda-forge
+  - default #added to see if solving is sped up
   #- bioconda
 dependencies:
   - click
