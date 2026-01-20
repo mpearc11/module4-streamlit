@@ -1,0 +1,8 @@
+name: plannotate
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - plannotate
+  - selenium
+prefix: /home/zippy/anaconda3/envs/plannotate
