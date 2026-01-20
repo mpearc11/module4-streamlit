@@ -2,6 +2,7 @@ name: plannotate
 channels:
   - conda-forge
   - defaults
+  - bioconda
 dependencies:
   - plannotate
   - selenium
