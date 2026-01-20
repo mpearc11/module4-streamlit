@@ -2,13 +2,13 @@ name: plannotate
 channels:
   - conda-forge
   - defaults
-  - bioconda
 dependencies:
+  - python
+  - biopython
   - plannotate
   - selenium
   - pip
   - pip:
-    - Bio==1.8.0
-    - biopython==1.85
-    - streamlit==1.47.0
+    - biopython
+    - streamlit
 prefix: /home/zippy/anaconda3/envs/plannotate
