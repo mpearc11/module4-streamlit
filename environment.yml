@@ -23,12 +23,12 @@
 name: plannotate
 channels:
   - conda-forge
+  - bioconda
   - defaults
 dependencies:
-  - python
-  - biopython
+  - python>=3.9
+  - biopython>=1.78
   - plannotate
-  - blast
   - selenium
   - pip
   - pip:
