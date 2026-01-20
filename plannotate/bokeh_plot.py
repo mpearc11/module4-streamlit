@@ -236,7 +236,7 @@ def get_bokeh(df, linear=False):
 
     TOOLTIPS = '<font size="3"><b>@Feature</b> — @Type   @pi_permatch_int</font> <br> @Description'
 
-    hover = HoverTool(names=["features"])
+    #hover = HoverTool(names=["features"])
     PLOT_SIZE = 0.35
     PLOT_DIMENSIONS = 800
 
@@ -244,14 +244,14 @@ def get_bokeh(df, linear=False):
     y_range = Range1d(-PLOT_SIZE, PLOT_SIZE, bounds=(-0.5, 0.5), min_interval=0.1)
 
     p = figure(
-        plot_height=PLOT_DIMENSIONS,
-        plot_width=PLOT_DIMENSIONS,
+        height=PLOT_DIMENSIONS,
+        width=PLOT_DIMENSIONS,
         title="",
-        toolbar_location=None,
+        toolbar_location='above',
         toolbar_sticky=False,
         match_aspect=True,
         sizing_mode="scale_width",
-        tools=["save", hover, "pan"],
+        #tools=["save", hover, "pan"],
         tooltips=TOOLTIPS,
         # x_range=(-plotSize, plotSize), y_range=(-plotSize, plotSize))
         x_range=x_range,
@@ -259,7 +259,7 @@ def get_bokeh(df, linear=False):
     )
     p.toolbar.logo = None
     p.add_tools(WheelZoomTool(zoom_on_axis=False))
-    p.toolbar.active_scroll = p.select_one(WheelZoomTool)
+    #p.toolbar.active_scroll = p.select_one(WheelZoomTool)
 
     # backbone line
     p.circle(
