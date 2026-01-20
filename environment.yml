@@ -26,11 +26,9 @@ channels:
   - defaults
 dependencies:
   - python
-  - pandas
-  - numpy
-  - blast
   - biopython
   - plannotate
+  - blast
   - selenium
   - pip
   - pip:
