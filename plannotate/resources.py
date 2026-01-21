@@ -12,7 +12,8 @@ from Bio.Seq import Seq
 from Bio.SeqFeature import FeatureLocation, SeqFeature
 from Bio.SeqRecord import SeqRecord
 
-from .version import __version__ as plannotate_version
+#from .version import __version__ as plannotate_version
+from plannotate import __version__ as plannotate_version
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 
