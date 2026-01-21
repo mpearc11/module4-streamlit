@@ -1,5 +1,5 @@
 click
-curl
+#curl
 numpy
 biopython>=1.78
 blast>=2.10.1
