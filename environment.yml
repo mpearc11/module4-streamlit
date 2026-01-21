@@ -1,7 +1,6 @@
 name: plannotate
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - python>=3.9
   - biopython>=1.78
