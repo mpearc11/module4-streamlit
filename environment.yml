@@ -1,9 +1,0 @@
-name: plannotate
-channels:
-  - conda-forge
-dependencies:
-  - python>=3.9
-  - biopython>=1.78
-  #- plannotate
-  - selenium
-prefix: /home/zippy/anaconda3/envs/plannotate
